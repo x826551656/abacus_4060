@@ -1,0 +1,16 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "torch": "2.5.1+cu124",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "pytest": "8.3.3"
+  },
+  "cuda_available": true,
+  "cuda_runtime": "12.4",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "vram_bytes": 33794359296,
+  "bf16_supported": true,
+  "cuda_matmul_finite": true
+}
