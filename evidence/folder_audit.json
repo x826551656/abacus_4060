@@ -1,0 +1,17 @@
+{
+  "files_in_inventory": 172,
+  "excluded_directory_names": [
+    ".git",
+    ".idea",
+    ".pytest_cache",
+    ".venv",
+    "__pycache__",
+    "dist"
+  ],
+  "official_commit": "86022a57d38c0fde46444d62e8dcbebcc0af614c",
+  "expected_official_commit": "86022a57d38c0fde46444d62e8dcbebcc0af614c",
+  "official_worktree_clean": true,
+  "official_snapshot_hashes_match": true,
+  "hardcoded_absolute_path_literals_in_reproduction_code": [],
+  "status": "pass"
+}

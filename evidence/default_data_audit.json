@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "train_rows_checked": 2000000,
+  "equal_rows_per_length_cell": 5000,
+  "checksums": "pass",
+  "arithmetic": "pass",
+  "canonical_split_isolation": "pass"
+}

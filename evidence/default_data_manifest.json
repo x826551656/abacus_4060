@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "samples": 2000000,
+  "train_max": 20,
+  "seed": 2026,
+  "width": 65,
+  "split_salt": "abacus4060-v1-split",
+  "split_ratio": "80/10/10 by canonical operand pair hash",
+  "test_lengths": [
+    1,
+    2,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    40,
+    60,
+    80,
+    100
+  ],
+  "test_requested_per_cell": 64,
+  "train_sampling": "with replacement, exactly equal length-pair counts",
+  "files": {
+    "train.npy": "9a0739da6a3ed284f12523e2821915f42286211272e26a2f9fe6327c25025ade",
+    "val.jsonl": "2da0ed7b7dd2909e3ee9101a15c97841bb6197e57be24a25ec98b0c567089662",
+    "test.jsonl": "943b53e2fda8a900757dc0e4af35bb76ea3ac8253e1c8994cbab6248d3aab45e"
+  }
+}

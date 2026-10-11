@@ -1,0 +1,31 @@
+{
+  "evaluation": "greedy autoregressive exact match incl. EOS",
+  "train_max_digits": 2,
+  "grid_is_sparse": true,
+  "group_definitions": {
+    "ID": "both lengths <= train_max",
+    "OOD": "at least one length > train_max, both <=100"
+  },
+  "ID": {
+    "n": 20,
+    "correct": 0,
+    "micro_accuracy": 0.0,
+    "macro_cell_accuracy": 0.0,
+    "micro_wilson95": [
+      0,
+      0.16113012549493322
+    ],
+    "cells": 4
+  },
+  "OOD": {
+    "n": 25,
+    "correct": 0,
+    "micro_accuracy": 0.0,
+    "macro_cell_accuracy": 0.0,
+    "micro_wilson95": [
+      0,
+      0.13319649395317873
+    ],
+    "cells": 5
+  }
+}
